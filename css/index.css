@@ -21,7 +21,7 @@ body{
     position: fixed;
     top: 2.5%;
     left: 5%;
-}
+}  
 
 button{
     /* background-color: rgb(70, 168, 158); */
@@ -30,6 +30,14 @@ button{
     border: none;
     margin-top: 10vw;
 }
+
+img{
+    transition: transform 3s;
+}
+
+/* img:hover{
+    transform: scale(2.5) translateY(-15%) translateX(-5%) ;
+} */
 
 @media only screen and (orientation:landscape){
     body{
@@ -45,7 +53,11 @@ button{
         position: fixed;
         bottom: 0;
         right: 0;
+        transition: transform 2s;
     }
+    /* img:hover{
+        transform: scale(5) translateX(-20%) translateY(15%);
+    } */
 }
 
 @media only screen and (orientation:portrait){
