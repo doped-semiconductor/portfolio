@@ -54,6 +54,13 @@ function libtnCall(con){
             <div class="info2">https://www.linkedin.com/in/sreya-goswami/</div>            
         </div> 
         </a>
+        <a class="col-sm-12 col-md-12 col-lg-6" href="mailto:getsreya@gmail.com">
+        <div class="ecard">
+            <div class="card-title"><img src="css/icons/mail.png" alt="mail"></div>                
+            <div class="row card-sub-title" style="display: flex; justify-content:center">Email</div>
+            <div class="info2">getsreya@gmail.com</div>            
+        </div> 
+        </a>
     </div>`
 }
 function wobtnCall(con){
